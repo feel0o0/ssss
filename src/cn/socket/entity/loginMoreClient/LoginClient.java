@@ -15,7 +15,7 @@ import cn.socket.entity.User;
 public class LoginClient {
 	
 	public static void main(String[] args) {
-		//1.建立客户端socket的连接，指定服务器的位置以及端口
+		//1.建立客户端socket的连接，指定服务器的位置以及端口----------------
 		try {
 			Socket socket=new Socket("localhost",8800);
 			//2.得到socket的读写流
